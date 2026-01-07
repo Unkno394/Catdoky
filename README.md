@@ -5,38 +5,37 @@
 ![Jetpack%20Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?logo=jetpackcompose&logoColor=white)
 ![Lottie](https://img.shields.io/badge/Lottie-00C4B3?logo=lottiefiles&logoColor=white)
 
-Catdoky is a Sudoku game with a cat theme, built with Jetpack Compose. It includes classic 9x9 and 16x16 boards, animations, XP progression, and a guided tutorial.
+Catdoky — это судоку с котиками на Jetpack Compose. В проекте есть классические 9x9 и 16x16, анимации, прогресс/уровни и встроенный туториал.
 
-## Features
-- Sudoku 9x9 and 16x16
-- Pause mode with cat animation
-- Pencil mode and hints (3 per game)
-- Error tracking (3 strikes)
-- Long press to clear a cell
-- Tutorial coach marks (one-time)
-- XP and level progression
-- Light and dark themes
+## Возможности
+- Судоку 9x9 и 16x16
+- Пауза с анимацией кота
+- Режим карандаша и подсказки (3 на игру)
+- Система ошибок (3 попытки)
+- Долгое нажатие очищает ячейку
+- Туториал (показывается один раз)
+- XP и рост уровня
+- Светлая и тёмная темы
 
-## Tech Stack
+## Технологии
 - Kotlin
 - Jetpack Compose (Material 3)
 - Navigation Compose
 - DataStore (preferences)
 - Lottie Compose
 
-## Project Structure
-- `app/src/main/java/com/example/sudoky/ui/screens` - Compose screens
-- `app/src/main/java/com/example/sudoky/sudoku` - Game logic and solver
-- `app/src/main/java/com/example/sudoky/data` - Preferences, XP, and leveling rules
-- `app/src/main/res/raw` - Lottie animations
-- `app/src/main/res/mipmap-*` - App icons
+## Структура проекта
+- `app/src/main/java/com/example/sudoky/ui/screens` — экраны Compose
+- `app/src/main/java/com/example/sudoky/sudoku` — логика игры и решатель
+- `app/src/main/java/com/example/sudoky/data` — настройки, XP и уровни
+- `app/src/main/res/raw` — Lottie-анимации
+- `app/src/main/res/mipmap-*` — иконки приложения
 
-## Build
+## Сборка
 ```bash
 ./gradlew assembleDebug
 ```
 
-## Notes
-- App name: Catdoky
-- Icons use `@mipmap/ic_launcher` and `@mipmap/ic_launcher_round`
-
+## Примечания
+- Название приложения: Catdoky
+- Иконки используют `@mipmap/ic_launcher` и `@mipmap/ic_launcher_round`
